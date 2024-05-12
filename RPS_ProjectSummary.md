@@ -1,5 +1,6 @@
 # Project: Rock, Paper, Scissors Game
-*v1.0 Completed: 5/10/24*
+---
+*v1.0 - Completed: 5/10/24*
 
 **Concepts used:** 
 - Module importing
