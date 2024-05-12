@@ -54,28 +54,28 @@ def roundEval():
     if playerChoice == rpsChoices[0]:
         if compChoice == rpsChoices[1]:
             print(f"{compChoice} beats {playerChoice}. You LOSE!")
-            compScore = compScore + 1
+            compScore += 1
         elif compChoice == rpsChoices[2]:
             print(f"{playerChoice} beats {compChoice}. You WIN!")
-            playerScore = playerScore + 1
+            playerScore += 1
         else: print("TIE!")  
 
     elif playerChoice == rpsChoices[1]:
         if compChoice == rpsChoices[2]:
             print(f"{compChoice} beats {playerChoice}. You LOSE!")
-            compScore = compScore + 1
+            compScore += 1
         elif compChoice == rpsChoices[0]:
             print(f"{playerChoice} beats {compChoice}. You WIN!")
-            playerScore = playerScore + 1
+            playerScore += 1
         else: print("TIE!") 
 
     elif playerChoice == rpsChoices[2]:
         if compChoice == rpsChoices[0]:
             print(f"{compChoice} beats {playerChoice}. You LOSE...")
-            compScore = compScore + 1
+            compScore += 1
         elif compChoice == rpsChoices[1]:
             print(f"{playerChoice} beats {compChoice}. You WIN!")
-            playerScore = playerScore + 1
+            playerScore += 1
         else: print("TIE!")
 
     sleep(1)
