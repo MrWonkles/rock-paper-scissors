@@ -10,5 +10,6 @@
 - Variable scope
 - Branching logic
 
+**Summary:**
 This is a simple Python project I wrote to practice some core
 concepts, as well as acquaint myself with Python-specific syntax.
