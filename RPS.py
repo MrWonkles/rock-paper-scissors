@@ -56,7 +56,7 @@ def compChooses():
 
 def roundEval():
     ##
-    ## Global variables declared to allow the function access
+    ## Global variables declared to allow the function access.
     ##
     
     global compScore
