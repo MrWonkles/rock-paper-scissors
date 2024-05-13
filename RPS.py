@@ -1,6 +1,13 @@
 import random as ran
 from time import sleep
 
+##
+## Custom fucntions designed to call one another in sequence
+## or recurse as needed.
+##
+## Sleep function called to pace terminal output.
+##
+
 def playerStartCheck():
 
     playGame = input("Type Y or N: ")
@@ -88,6 +95,11 @@ def roundEval():
         print("You lose the game...\n")
     else:
         playerChooses()
+
+##
+## Tuple used and referenced to maintain name choice integrity.
+## Global variables used for score tracking and incrementation. 
+##
 
 rpsChoices = ('Rock', 'Paper', 'Scissors')
 playerScore = 0
