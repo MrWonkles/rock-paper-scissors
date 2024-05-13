@@ -2,7 +2,7 @@ import random as ran
 from time import sleep
 
 ##
-## Custom fucntions designed to call one another in sequence
+## Custom functions designed to call one another in sequence
 ## or recurse as needed.
 ##
 ## Sleep function called to pace terminal output.
