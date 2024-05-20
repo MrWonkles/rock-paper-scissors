@@ -2,7 +2,7 @@
 ---
 *v1.0 - Completed: 5/10/24*
 
-**Concepts used:** 
+**Concepts focused on:** 
 - Module importing
 - Defining functions
 - Recursive functions
